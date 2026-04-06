@@ -1,3 +1,4 @@
+const express = require('express');
 const router = express.Router();
 const { getAllCategories, addCategory, getCategoryById, DeleteById, addMealToCategory} = require('../controllers/catController');
 
