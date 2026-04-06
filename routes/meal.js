@@ -1,7 +1,5 @@
-const express = require("express")
+const router = express.Router();
 const { getAllMeals, addMeal, getMealById } = require("../controllers/mealController")
-
-const router = express.Router()
 
 router.get("/", getAllMeals)
 router.post("/", addMeal)
